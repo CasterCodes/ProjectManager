@@ -108,13 +108,15 @@ function markProject(id) {
     projects.forEach((project) => {
         if (id == project.id && !project.done) {
             project.done = true;
+            console.log(id);
         }
-        if (id == project.id && project.done) {
+        else if (id == project.id && project.done) {
             project.done = false;
         }
     })
     localStorage.setItem('projects', JSON.stringify(projects));
-    console.log(projects);
+
+
 }
 
 
