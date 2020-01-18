@@ -6,7 +6,7 @@ In this App a user is able to add a project name, project deteils, technologies 
 Vanilla Javascript
 # Javascript
 Arrow functions
-Basic 
+Basic javascripts sytax 
 localStorage
 # For 
 Javascript Beginners
